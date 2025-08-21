@@ -4,11 +4,12 @@ import { FiExternalLink, FiGithub } from "react-icons/fi";
 
 const projects = [
   {
-    title: "FlipZon E-commerce",
-    desc: "Full e-commerce app demo. Product listings, cart and checkout UX.",
-    stack: ["Next.js", "Tailwind", "Node.js", "MongoDB"],
-    live: "",
-    repo: "",
+    title: "QuickCart",
+    desc: "Modern e-commerce app with product browsing, cart management, and secure authentication using Clerk.",
+    stack: ["Next.js", "Tailwind CSS", "MongoDB", "Clerk", "Framer Motion"],
+    live: "https://amrit-quick-cart.netlify.app",
+    repo: "https://github.com/amritrai404/Quick-Cart",
+    featured: true,
   },
   {
     title: "Gadgets Galaxy",
@@ -16,7 +17,6 @@ const projects = [
     stack: ["HTML", "CSS", "Bootstrap", "JavaScript"],
     live: "https://amrit-gadgets-galaxy.netlify.app",
     repo: "https://github.com/amritrai404/Gadgets-Galaxy",
-    featured: true,
   },
   {
     title: "ToDo List",
@@ -55,6 +55,7 @@ function ProjectCard({ p, i }) {
           <a
             href={p.live}
             target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-indigo-600 text-white hover:bg-indigo-700"
           >
             <FiExternalLink /> Live
@@ -64,6 +65,7 @@ function ProjectCard({ p, i }) {
           <a
             href={p.repo}
             target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-3 py-2 rounded-lg border border-zinc-300 dark:border-zinc-700 hover:bg-zinc-100 dark:hover:bg-zinc-900"
           >
             <FiGithub /> Code
