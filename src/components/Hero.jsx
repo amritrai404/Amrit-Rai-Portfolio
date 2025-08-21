@@ -19,7 +19,7 @@ export default function Hero() {
         className="relative z-10 flex-shrink-0"
       >
         <img
-          src="/profile-pic.webp"
+          src="/profile-pic.jpg"
           alt="Amrit Rai"
           className="w-48 h-48 md:w-64 md:h-64 rounded-full border-4 border-indigo-500 shadow-lg object-cover"
         />
