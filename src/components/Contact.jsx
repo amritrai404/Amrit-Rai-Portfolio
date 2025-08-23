@@ -47,12 +47,25 @@ export default function Contact() {
           viewport={{ once: true }}
           className="card p-6 space-y-4"
         >
+          {/* Resume Link */}
+          <a
+            className="flex items-center gap-3 hover:opacity-90"
+            href="https://drive.google.com/file/d/1zOrsM7RAQsfh9FJN_BH44nc0UO0KKRtj/view"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            📄 Resume
+          </a>
+
+          {/* Gmail */}
           <a
             className="flex items-center gap-3 hover:opacity-90"
             href="mailto:amritrai1061@gmail.com"
           >
             <FiMail /> amritrai1061@gmail.com
           </a>
+
+          {/* LinkedIn */}
           <a
             className="flex items-center gap-3 hover:opacity-90"
             href="https://www.linkedin.com/in/amrit-rai-data-analyst"
@@ -61,6 +74,8 @@ export default function Contact() {
           >
             <FiLinkedin /> linkedin.com/in/amritrai
           </a>
+
+          {/* GitHub */}
           <a
             className="flex items-center gap-3 hover:opacity-90"
             href="https://github.com/amritrai404"

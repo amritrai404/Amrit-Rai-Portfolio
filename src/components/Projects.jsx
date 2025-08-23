@@ -12,11 +12,16 @@ const projects = [
     featured: true,
   },
   {
-    title: "Gadgets Galaxy",
-    desc: "Responsive e-commerce gadget store UI.",
-    stack: ["HTML", "CSS", "Bootstrap", "JavaScript"],
-    live: "https://amrit-gadgets-galaxy.netlify.app",
-    repo: "https://github.com/amritrai404/Gadgets-Galaxy",
+    title: "Satnam Cooling Services",
+    desc: "Real-world project done during internship; worked on frontend development with Next.js and Tailwind CSS to implement responsive UI and modern design.",
+    stack: ["Next.js", "React", "Tailwind CSS"],
+    live: "https://www.satnamcoolingservice.shop/",
+  },
+  {
+    title: "Sanggo Tech Main Website",
+    desc: "Internship project: worked on frontend for About, Contact, Career, Policy pages, and footer implementation using React and Tailwind CSS.",
+    stack: ["React", "Tailwind CSS", "Next.js"],
+    live: "https://sanggotech.com/",
   },
   {
     title: "ToDo List",

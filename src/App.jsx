@@ -11,7 +11,7 @@ import Footer from "./components/Footer.jsx";
 
 export default function App() {
   return (
-    <div className="min-h-screen p-3 sm:p-6 bg-zinc-50 text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 font-sans">
+    <div className="min-h-screen p-3 sm:p-6 bg-white text-zinc-900 dark:bg-zinc-950 dark:text-zinc-100 font-sans">
       <Navbar />
       <main>
         <section id="home"><Hero /></section>
