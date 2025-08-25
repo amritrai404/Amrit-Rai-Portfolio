@@ -84,9 +84,9 @@ export default function Navbar() {
                 <FiX />
               </button>
             </div>
-            <div className="flex flex-col gap-4 bg-black">
+            <div className="flex flex-col p-2 gap-4 bg-black">
               {links.map((l) => (
-                <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="py-2 border-b border-zinc-200/60 dark:border-zinc-800/60">
+                <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="py-2 border-b hover:bg-amber-600 border-zinc-200/60 dark:border-zinc-800/60">
                   {l.label}
                 </a>
               ))}
