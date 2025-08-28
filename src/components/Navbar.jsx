@@ -38,13 +38,23 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-white/80 dark:bg-zinc-950/80 backdrop-blur border-b border-zinc-200 dark:border-zinc-800">
       <nav className="section h-16 flex items-center justify-between">
-        <a href="#home" className="font-bold text-lg">
+        {/* Link to LinkedIn Profile on Amrit / Rai */}
+        <a
+          href="https://www.linkedin.com/in/amrit-rai-data-analyst/"
+          className="font-bold text-lg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           Amrit <span className="text-indigo-600">Rai</span>
         </a>
 
         <div className="hidden md:flex items-center gap-6">
           {links.map((l) => (
-            <a key={l.href} href={l.href} className="text-sm hover:text-indigo-600 dark:hover:text-indigo-400 transition">
+            <a
+              key={l.href}
+              href={l.href}
+              className="text-sm hover:text-indigo-600 dark:hover:text-indigo-400 transition"
+            >
               {l.label}
             </a>
           ))}
@@ -52,9 +62,7 @@ export default function Navbar() {
             onClick={() => setDark((d) => !d)}
             className="p-2 rounded-xl border border-zinc-200 dark:border-zinc-800 hover:bg-zinc-100 dark:hover:bg-zinc-900"
             aria-label="Toggle theme"
-          >
-          
-          </button>
+          ></button>
         </div>
 
         {/* Mobile */}
@@ -63,9 +71,7 @@ export default function Navbar() {
             onClick={() => setDark((d) => !d)}
             className="p-2 rounded-xl border border-zinc-200 dark:border-zinc-800"
             aria-label="Toggle theme"
-          >
-           
-          </button>
+          ></button>
           <button onClick={() => setOpen(true)} className="p-2" aria-label="Open menu">
             <FiMenu />
           </button>
@@ -86,7 +92,12 @@ export default function Navbar() {
             </div>
             <div className="flex flex-col p-2 gap-4 bg-black">
               {links.map((l) => (
-                <a key={l.href} href={l.href} onClick={() => setOpen(false)} className="py-2 border-b hover:bg-amber-600 border-zinc-200/60 dark:border-zinc-800/60">
+                <a
+                  key={l.href}
+                  href={l.href}
+                  onClick={() => setOpen(false)}
+                  className="py-2 border-b hover:bg-amber-600 border-zinc-200/60 dark:border-zinc-800/60"
+                >
                   {l.label}
                 </a>
               ))}
