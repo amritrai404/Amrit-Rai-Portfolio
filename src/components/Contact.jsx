@@ -50,7 +50,7 @@ export default function Contact() {
           {/* Resume Link */}
           <a
             className="flex items-center gap-3 hover:opacity-90"
-            href="https://drive.google.com/file/d/1zOrsM7RAQsfh9FJN_BH44nc0UO0KKRtj/view"
+            href="https://drive.google.com/file/d/148BLg3YqsGE6nwQuLQWh8_keaPoEgznv/view"
             target="_blank"
             rel="noopener noreferrer"
           >

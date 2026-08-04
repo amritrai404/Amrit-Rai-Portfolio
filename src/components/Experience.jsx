@@ -24,7 +24,7 @@ export default function Experience() {
         <div className="flex items-center gap-2">
           <h3 className="text-lg font-semibold">Sanggo Tech</h3>
           <a
-            href="https://sanggotech.com/"
+            href="https://sanggo.netlify.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 text-indigo-600 hover:underline"
