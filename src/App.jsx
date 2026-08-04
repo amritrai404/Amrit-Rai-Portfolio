@@ -15,9 +15,9 @@ export default function App() {
       <Navbar />
       <main>
         <section id="home"><Hero /></section>
-        <section id="skills" className="py-20"><Skills /></section>
         <section id="experience" className="py-20 bg-zinc-100 dark:bg-zinc-900"><Experience /></section>
         <section id="projects" className="py-20"><Projects /></section>
+        <section id="skills" className="py-20"><Skills /></section>
         <section id="certificates" className="py-20 bg-zinc-100 dark:bg-zinc-900"><Certificates /></section>
         <section id="education" className="py-20"><Education /></section>
         <section id="contact" className="py-20 bg-zinc-100 dark:bg-zinc-900"><Contact /></section>
