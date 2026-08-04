@@ -26,6 +26,13 @@ const projects = [
     repo: "https://github.com/amritrai404/Amrit-Rai-Portfolio",
   },
   {
+    title: "Asymmetric.ai",
+    desc: "Worked on design parity and animations during my Global Fellowship internship at Asymmetric.ai. Contributed to the public website using Next.js, TypeScript, and Framer Motion.",
+    stack: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    live: "https://asymmetric.al/",
+    repo: "https://github.com/amritrai404/assymetric-ai-fork",
+  },
+  {
     title: "Satnam Cooling Services",
     desc: "Client project completed during my internship at Sanggo Tech. I built the complete frontend using Next.js, React, and Tailwind CSS — implementing a responsive, modern UI for a real-world client.",
     stack: ["Next.js", "React", "Tailwind CSS"],
